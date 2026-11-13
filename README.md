@@ -50,3 +50,14 @@ This static starter can be deployed with GitHub Pages or another static hosting 
 - `index.html` — page structure and India-first storefront content
 - `styles.css` — responsive styling
 - `script.js` — sample catalogue, filters and demo shopping bag
+
+
+## Final approved brand and print direction
+
+- Official brand name: **Blood Freedom**.
+- Logo direction: distressed **baby handprint**; retain the approved final artwork without further redesign.
+- Wordmark colours: **BLOOD** in red and **FREEDOM** in green.
+- Black T-shirt: white-handprint or red-handprint print.
+- White T-shirt: red-handprint print.
+- Red T-shirt and red hoodie: white-handprint print.
+- Keep these print-colour combinations consistent across product photography, catalogue cards and product mockups.
