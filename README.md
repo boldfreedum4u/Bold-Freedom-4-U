@@ -61,3 +61,12 @@ This static starter can be deployed with GitHub Pages or another static hosting 
 - White T-shirt: red-handprint print.
 - Red T-shirt and red hoodie: white-handprint print.
 - Keep these print-colour combinations consistent across product photography, catalogue cards and product mockups.
+
+
+## Backend decision: Supabase selected
+
+Supabase is the selected database/backend foundation for the admin-managed catalogue. The initial schema and setup instructions are in [supabase/README.md](supabase/README.md), with SQL in [supabase/schema.sql](supabase/schema.sql).
+
+The schema supports products and size/colour/print variants, INR prices, stock quantities, public active-product reads, admin-only changes and product-image storage policies. It does not contain real products or prices yet.
+
+**Setup status:** repository files are prepared; a live Supabase project has not been created or connected. The owner must create the project and run the SQL before the website can use it. Never commit database passwords, access tokens or the Supabase service-role key.
