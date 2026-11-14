@@ -18,11 +18,11 @@ Recommended shopping flow:
 1. Browse a design category.
 2. Select a design.
 3. Choose a garment: T-shirt, Hoodie or Sweatshirt.
-4. Choose audience/fit: Male or Female (and optionally Unisex where a product supports it).
+4. Choose audience/fit: Male or Female.
 5. Choose garment colour, print colour and size.
 6. See the final product mock-up, price and availability before adding to bag.
 
-The database keeps garment category (T-shirt/Hoodie/Sweatshirt) separate from audience/fit (male/female/unisex). Each design can be linked to one or more garment products. Only combinations approved by the admin should be published. Keep the approved Blood Freedom baby-handprint brand artwork unchanged; customer POD designs are a separate catalogue.
+The database keeps garment category (T-shirt/Hoodie/Sweatshirt) separate from audience/fit (male/female). Each design can be linked to one or more garment products. Only combinations approved by the admin should be published. Keep the approved Blood Freedom baby-handprint brand artwork unchanged; customer POD designs are a separate catalogue.
 
 ## 3. Customer stories and product photos
 Provide a feedback/community section where signed-in customers can submit:
