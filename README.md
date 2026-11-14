@@ -70,3 +70,18 @@ Supabase is the selected database/backend foundation for the admin-managed catal
 The schema supports products and size/colour/print variants, INR prices, stock quantities, public active-product reads, admin-only changes and product-image storage policies. It does not contain real products or prices yet.
 
 **Setup status:** repository files are prepared; a live Supabase project has not been created or connected. The owner must create the project and run the SQL before the website can use it. Never commit database passwords, access tokens or the Supabase service-role key.
+
+
+## POD design marketplace and customer community
+
+The planned storefront now supports a design-first customer journey: browse design categories (Politics, Corporate, Sports, Cartoons, Text Dialogues, Motivation), select a design, then choose an available T-shirt, Hoodie or Sweatshirt and its audience/fit, colour and size.
+
+The catalogue model separates garment type from audience/fit (male, female or unisex). Admins will upload and manage POD artwork; only published designs and approved product combinations should appear publicly.
+
+A customer feedback/community section is also planned for stories and product photos. Submissions require moderation. Public display permission and optional marketing/promotional reuse permission must be separate, explicit opt-ins. No customer content is published or reused for promotion without the relevant consent and admin approval.
+
+Implementation files:
+- [POD and customer community setup](supabase/POD-COMMUNITY.md)
+- [POD/community SQL migration](supabase/pod-community-migration.sql)
+
+Apply the base `supabase/schema.sql` first, then the POD/community migration. These files prepare the database model and access policies; the live Supabase project, storefront UI, upload workflows, moderation dashboard and marketing/gallery workflow are not yet connected or deployed.
