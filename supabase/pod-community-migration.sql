@@ -39,8 +39,8 @@ create index if not exists pod_designs_category_active_idx
 
 -- Keep products.category as the garment type; add audience/fit as a separate field.
 alter table public.products
-  add column if not exists audience_gender text not null default 'unisex'
-  check (audience_gender in ('male', 'female', 'unisex'));
+  add column if not exists audience_gender text
+  check (audience_gender in ('male', 'female'));
 
 -- Each design can be offered on one or more garment types.
 create table if not exists public.design_product_options (
